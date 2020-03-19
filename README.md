@@ -1,4 +1,4 @@
-##AP rectification
+## AP rectification
 roslaunch stereo_fisheye_rectify AP_stereo_fisheye_rectify.launch
 
 ## Stereo Fisheye Rectification
