@@ -1,0 +1,16 @@
+<launch>
+    <!-- Launch file for stereo fisheye rectification -->
+    <node pkg="stereo_fisheye_rectify" type="stereo_fr_split" name="stereo_fisheye_rectify" output="screen">
+      <param name="calib_file" value="$(env HOME)/catkin_ws/src/stereo_fisheye_rectify/AP_fisheye_stereo_rectify.yml"/>
+      <param name="img_width" type="int" value="848"/>
+      <param name="img_height" type="int" value="800"/>
+      <remap from="~left/image_raw" to="/camera/fisheye2/image_raw"/>
+      <remap from="~right/image_raw" to="/camera/fisheye1/image_raw"/>
+      <remap from="~left/rectified" to="/uav/camera/left/image_rect_color"/>
+      <remap from="~right/rectified" to="/uav/camera/right/image_rect_color"/>
+    </node>
+</launch>
+
+
+
+

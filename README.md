@@ -1,3 +1,7 @@
+##Alpha pilot fisheye rectification
+roslaunch stereo_fisheye_rectify AP_stereo_fisheye_rectify.launch
+
+
 ## Stereo Fisheye Rectification
 ROS Node for Stereo Image Rectification using the Fisheye Camera Model from
 OpenCV
