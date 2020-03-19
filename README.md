@@ -1,7 +1,6 @@
 ## AP rectification
 roslaunch stereo_fisheye_rectify AP_stereo_fisheye_rectify.launch
 
->>>>>>> e6745f7064763884f48e5a2b8e8f6ff3bfa5cce2
 ## Stereo Fisheye Rectification
 ROS Node for Stereo Image Rectification using the Fisheye Camera Model from
 OpenCV
